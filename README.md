@@ -3,6 +3,8 @@ Statsd aggregator for the EWBF miner
 
 ![](images/dashboard-example.png)
 
+If you need a miner, check out [djenriquez/ewbf-cuda-miner](https://github.com/djenriquez/ewbf-cuda-miner).
+
 # Run:
 ```
 docker run -d \
