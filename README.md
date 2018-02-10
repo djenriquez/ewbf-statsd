@@ -5,6 +5,8 @@ Statsd aggregator for the EWBF miner
 
 If you need a miner, check out [djenriquez/ewbf-cuda-miner](https://github.com/djenriquez/ewbf-cuda-miner).
 
+A Datadog account is required for this, but you can sign up for a free account which give you 5 hosts. Sign up here: https://www.datadoghq.com/
+
 # Run:
 ```
 docker run -d \
