@@ -12,7 +12,7 @@ class EWBFStats:
         self._initialize_dogstatsd()
 
     def poll_stats(self):
-        poll_time = self.config['poll']
+        poll_time = int(self.config['poll'])
         while(True):
             stats = self._getstats()
             self._send_stats(stats)
